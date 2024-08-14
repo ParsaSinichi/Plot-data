@@ -1,4 +1,4 @@
-# Extracting Data from a Plot Image
+![output](https://github.com/user-attachments/assets/382866b3-a8ef-403c-97f0-2c1f3c9ee467)# Extracting Data from a Plot Image
 
 ## Overview
 
@@ -33,4 +33,5 @@ In the first approach, the user manually sets the limits for the x and y axes. O
 
 The second approach automates the process of setting axis limits by using OCR (Optical Character Recognition). In this method, the axes are first extracted from the plot image by identifying the largest connected component on the left side of the image. This technique is based on the assumption that the x and y axes are usually located on the left side of the plot and are often connected. After identifying the axes, OCR is applied to read the numerical labels on them. These labels are then used to automatically determine the axis limits, making this method particularly useful when dealing with unknown or difficult-to-determine axis scales.
 
+![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a)
 

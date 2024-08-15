@@ -1,4 +1,4 @@
-![output](https://github.com/user-attachments/assets/382866b3-a8ef-403c-97f0-2c1f3c9ee467)# Extracting Data from a Plot Image
+# Extracting Data from a Plot Image
 
 ## Overview
 
@@ -33,5 +33,55 @@ In the first approach, the user manually sets the limits for the x and y axes. O
 
 The second approach automates the process of setting axis limits by using OCR (Optical Character Recognition). In this method, the axes are first extracted from the plot image by identifying the largest connected component on the left side of the image. This technique is based on the assumption that the x and y axes are usually located on the left side of the plot and are often connected. After identifying the axes, OCR is applied to read the numerical labels on them. These labels are then used to automatically determine the axis limits, making this method particularly useful when dealing with unknown or difficult-to-determine axis scales.
 
-![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a)
+# Example
 
+**original plot :**
+<!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
+<p align="center" >
+  <img src="example\output copy.png" height='400' width='600'>
+</p>
+
+**Extracted axis**
+<!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
+<p align="center" >
+  <img src="extracted axis.png" height='400' width='600'>
+</p>
+
+
+**the recounstructed version of the original plot :**
+
+<!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
+<p align="center" >
+  <img src="final.png" height='400' width='600'>
+</p>
+
+
+## **Extracted axies**
+Left slice
+<!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
+<p align="center" >
+  <img src="left.png" height='445' width='120' >
+</p>
+
+down slice 
+<!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
+<p align="center" >
+  <img src="d.png" >
+</p>
+
+we can use OCR to extract numbers to automatically set the x and y limits 
+
+## **OCR**
+I used easyOCR for detecting numbers 
+
+x-axis OCR
+<!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
+<p align="center" >
+  <img src="down_ocr.png" >
+</p>
+
+y-axis OCR
+<!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
+<p align="center" >
+  <img src="left_ocr1.png" height='445' width='120' >
+</p>

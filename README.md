@@ -44,7 +44,7 @@ The second approach automates the process of setting axis limits by using OCR (O
 **Extracted axis**
 <!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
 <p align="center" >
-  <img src="extracted axis.png" height='400' width='600'>
+  <img src="example\extracted axis.png" height='400' width='600'>
 </p>
 
 
@@ -52,7 +52,7 @@ The second approach automates the process of setting axis limits by using OCR (O
 
 <!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
 <p align="center" >
-  <img src="final.png" height='400' width='600'>
+  <img src="example\final.png" height='400' width='600'>
 </p>
 
 
@@ -60,13 +60,13 @@ The second approach automates the process of setting axis limits by using OCR (O
 Left slice
 <!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
 <p align="center" >
-  <img src="left.png" height='445' width='120' >
+  <img src="example\left.png" height='445' width='120' >
 </p>
 
 down slice 
 <!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
 <p align="center" >
-  <img src="d.png" >
+  <img src="example\d.png" >
 </p>
 
 we can use OCR to extract numbers to automatically set the x and y limits 
@@ -77,7 +77,7 @@ I used easyOCR for detecting numbers
 x-axis OCR
 <!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
 <p align="center" >
-  <img src="down_ocr.png" >
+  <img src="example\down_ocr.png" >
 </p>
 
 y-axis OCR

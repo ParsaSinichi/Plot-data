@@ -83,5 +83,5 @@ x-axis OCR
 y-axis OCR
 <!-- ![output](https://github.com/user-attachments/assets/cd35d8bf-1fbe-4648-a280-1738ae55983a) -->
 <p align="center" >
-  <img src="left_ocr1.png" height='445' width='120' >
+  <img src="example\left_ocr1.png" height='445' width='120' >
 </p>
